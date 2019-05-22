@@ -30,16 +30,13 @@
         android:id="@+id/board"
         android:layout_width="115dp"
         android:layout_height="78dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="96dp"
         android:background="@drawable/speaker"
         android:scaleType="fitXY"
         android:shadowRadius="5"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.297"
         app:srcCompat="@drawable/speaker" />
 
 </android.support.constraint.ConstraintLayout>
