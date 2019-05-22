@@ -50,7 +50,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="7ef234" />
+                                                <entry key="color" value="fff8fa" />
+                                                <entry key="scalingPercent" value="75" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -61,7 +62,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/snap/android-studio/75/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/places/ic_business_center_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/snap/android-studio/75/android-studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_record_voice_over_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -83,6 +84,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="1e35a6" />
                                       <entry key="foregroundAssetType" value="CLIP_ART" />
                                     </map>
                                   </option>

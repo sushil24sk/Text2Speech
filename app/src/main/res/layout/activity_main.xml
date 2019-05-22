@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:background="@drawable/wallie"
+    android:background="@drawable/fade"
     tools:context=".MainActivity"
 
     android:padding="10dp">
@@ -14,33 +14,32 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="132dp"
         android:background="#ffffff"
         android:hint="Write Your Text Here :"
         android:inputType="textMultiLine"
         android:maxHeight="140dp"
         android:padding="9dp"
         android:scrollbars="vertical"
-        app:layout_constraintBottom_toTopOf="@id/board"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.848"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/board"
-        android:layout_width="90dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="292dp"
+        android:layout_width="115dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/speaker"
         android:scaleType="fitXY"
         android:shadowRadius="5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:srcCompat="@drawable/speaker"/>
+        app:layout_constraintVertical_bias="0.297"
+        app:srcCompat="@drawable/speaker" />
 
 </android.support.constraint.ConstraintLayout>
